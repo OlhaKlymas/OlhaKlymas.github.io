@@ -148,13 +148,18 @@ nav>p{
     color: #fff;
 	border: 1px solid transparent;
 }
-.nav-block>a:hover {
+.nav-block>a:hover, button:hover {
 	background-color: #f0e0f7;
 	border: 1px solid #391c69;
 	color: #391c69;
 	transition: background-color 0.5s, border 0.5s;
 }
-
+.nav-block>a:active, .nav-block>a:focus, button:active, button:focus {
+    background-color: #391c69;
+    border: 1px solid #391c69;
+    color: #f0e0f7;
+    outline: none;
+}
 article {
 	position: relative;
 	z-index: 1;
@@ -238,6 +243,30 @@ section {
 	margin-top: -100vh;
 	height: 150vh;
 }
+.scills-block{
+    width: 70%;
+    margin-top: 30px;
+}
+button {
+    background-color: #221b23;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #221b23;
+}
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.scills-block-wrap>p {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Kalam', cursive;
+}
 /*Изотоп закончился*/
 .element-item {
   position: relative;
@@ -254,23 +283,31 @@ section {
     opacity: 0.75; }
   .element-item .name {
     position: absolute;
-    left: 0px;
-    top: 30px;
-    font-size: 11pt;
+    top: 35px;
+    font-size: 17px;
+    line-height: 1;
     color: #000;
-    font-family: cursive; }
+    font-family: 'Kalam', cursive; }
   .element-item.templateers {
     background: #0c4de4; }
   .element-item.taskManagers {
-    background: #ff9eba; }
+    background: #ffb13b; }
   .element-item.bandlers {
-    background: #ccff00; }
+    background: #ccff00; }    
+  .element-item.language {
+    background: #fb4297;}
   .element-item.frameworksJS {
     background: #33ff00; }
+  .element-item.pluginsJS {
+    background: #d85bd4; }
   .element-item.preprocessorsCSS {
     background: #00ff66; }
   .element-item.frameworksCSS {
     background: cyan; }
+  .element-item.layout {
+    background: #8d72f9;}
+  .element-item.platform {
+    background: #930acc;}
 /*Изотоп закончился*/
 
 .portfolio-grid-item>p {

@@ -56,51 +56,64 @@
 				<div class="scills-bg"></div>
 				<h2>Skills</h2>
 				<hr>
-				<div class="upperBlock">
-					<div class="warpUpperBlock">
-						<h2>Sort</h2>
+				<div class="scills-block">
+					<div class="scills-block-wrap">
+						<p>Sort</p>
 						<div class="button-group" id="filters">
-							<button class="button is-checked" data-filter="*">Все</button>
-							<button class="button" data-filter=".know">Я знаю</button>
-							<button class="button" data-filter=":not(.know)">Предстоит выучить</button>
-							<button class="button" data-filter=".actual">Актуальные</button>
+							<button class="button is-checked" data-filter="*">All</button>
+							<button class="button" data-filter=".know">Know</button>
+							<button class="button" data-filter=".basic">Basic knowledge</button>
+							<button class="button" data-filter=".learn">Want to learn</button>
+							<button class="button" data-filter=".actual">Actual</button>
 						</div>
-						<h2>Filter</h2>
+						<p>Filter</p>
 						<div class="button-group" id="sorts">
-							<button class="button is-checked" data-sort-by="original-order" data-filter="*">Первоначальный список</button>
-							<button class="button" data-sort-by="name">Имя</button>
-							<button class="button" data-filter=".templateers">Шаблонизаторы</button>
-							<button class="button" data-filter=".taskManagers">Менеджеры задач</button>
-							<button class="button" data-filter=".bandlers">Бандлеры</button>
-							<button class="button" data-filter=".frameworksJS">Фреймворки JS</button>
-							<button class="button" data-filter=".preprocessorsCSS">Препроцессоры CSS</button>
-							<button class="button" data-filter=".frameworksCSS">Фреймворки CSS</button>
+							<button class="button is-checked" data-sort-by="original-order" data-filter="*">Initial list</button>
+							<button class="button" data-sort-by="name">Name</button>
+							<button class="button" data-filter=".templateers">Templateers</button>
+							<button class="button" data-filter=".taskManagers">Task managers</button>
+							<button class="button" data-filter=".bandlers">Bandlers</button>
+							<button class="button" data-filter=".language">Language</button>
+							<button class="button" data-filter=".frameworksJS">Frameworks JS</button>
+							<button class="button" data-filter=".pluginsJS">Plugins JS</button>
+							<button class="button" data-filter=".preprocessorsCSS">Preprocessors CSS</button>
+							<button class="button" data-filter=".frameworksCSS">Frameworks CSS</button>
+							<button class="button" data-filter=".layout">Layout</button>
+							<button class="button" data-filter=".platform">Platform</button>
 						</div>
 						<div class="grid">
-							<a href="https://gulpjs.com/"><div class="element-item taskManagers actual" data-category="taskManagers"><h3 class="name">Gulp.js</h3></div></a>
-							<a href="https://www.npmjs.com/"><div class="element-item taskManagers know actual" data-category="taskManagers"><h3 class="name">npm</h3></div></a>
-							<a href="https://webpack.js.org/"><div class="element-item bandlers know actual" data-category="bandlers"><h3 class="name">Webpack</h3></div></a>
-							<a href="https://jquery.com/"><div class="element-item frameworksJS know actual" data-category="frameworksJS"><h3 class="name">jQuery</h3></div></a>
-							<a href="https://gruntjs.com/"><div class="element-item taskManagers actual" data-category="taskManagers"><h3 class="name">Grunt</h3></div></a>
-							<a href="https://reactjs.org/"><div class="element-item frameworksJS actual" data-category="frameworksJS"><h3 class="name">React</h3></div></a>
+							<a href="https://gulpjs.com/"><div class="element-item taskManagers" data-category="taskManagers"><h3 class="name">Gulp.js</h3></div></a>
+							<a href="https://ru.wikipedia.org/wiki/HTML"><div class="element-item language know actual" data-category="language"><h3 class="name">html</h3></div></a>
+							<a href="https://www.npmjs.com/"><div class="element-item taskManagers basic actual" data-category="taskManagers"><h3 class="name">npm</h3></div></a>
+							<a href="https://developer.mozilla.org/ru/docs/Web/Guide/CSS/Getting_started/What_is_CSS"><div class="element-item language know actual" data-category="language"><h3 class="name">css</h3></div></a>
+							<a href="https://gruntjs.com/"><div class="element-item taskManagers" data-category="taskManagers"><h3 class="name">Grunt</h3></div></a>
+							<a href="https://reactjs.org/"><div class="element-item frameworksJS actual learn" data-category="frameworksJS"><h3 class="name">React</h3></div></a>
 							<a href="http://browserify.org/"><div class="element-item bandlers actual" data-category="bandlers"><h3 class="name">Browserify</h3></div></a>
+							<a href="https://ru.wikipedia.org/wiki/JavaScript"><div class="element-item language know actual" data-category="language"><h3 class="name">js</h3></div></a>
 							<a href="https://www.emberjs.com/"><div class="element-item frameworksJS" data-category="frameworksJS"><h3 class="name">Ember.js</h3></div></a>
+							<a href="https://jquery.com/"><div class="element-item frameworksJS know actual" data-category="frameworksJS"><h3 class="name">jQuery</h3></div></a>
 							<a href="http://requirejs.org/"><div class="element-item bandlers" data-category="bandlers"><h3 class="name">RequireJS</h3></div></a>
+							<a href="https://webpack.js.org/"><div class="element-item bandlers basic actual" data-category="bandlers"><h3 class="name">Webpack</h3></div></a>
 							<a href="https://sass-scss.ru/"><div class="element-item preprocessorsCSS know actual" data-category="preprocessorsCSS"><h3 class="name">SASS</h3></div></a>
 							<a href="http://stylus-lang.com/"><div class="element-item preprocessorsCSS" data-category="preprocessorsCSS"><h3 class="name">Stylus</h3></div></a>
-							<a href="https://getbootstrap.com/"><div class="element-item frameworksCSS know actual" data-category="frameworksCSS"><h3 class="name">Bootstrap</h3></div></a>
+							<a href="https://getbootstrap.com/"><div class="element-item frameworksCSS actual learn" data-category="frameworksCSS"><h3 class="name">Bootstrap</h3></div></a>
 							<a href="https://www.meteor.com/"><div class="element-item frameworksJS" data-category="frameworksJS"><h3 class="name">Meteor.js</h3></div></a>
+							<a href="https://pugjs.org/api/getting-started.html"><div class="element-item templateers know actual" data-category="templateers"><h3 class="name">Pug</h3></div></a>
+							<a href="https://ru.wordpress.com/"><div class="element-item platform know actual" data-category="platform"><h3 class="name">Wordpress</h3></div></a>
 							<a href="https://foundation.zurb.com/"><div class="element-item frameworksCSS" data-category="frameworksCSS"><h3 class="name">Foundation</h3></div></a>
-							<a href="https://angular.io/"><div class="element-item frameworksJS actual" data-category="frameworksJS"><h3 class="name">Angular2</h3></div></a>
-							<a href="http://lesscss.org/"><div class="element-item preprocessorsCSS know" data-category="preprocessorsCSS"><h3 class="name">Less</h3></div></a>
-							<a href="https://vuejs.org/"><div class="element-item frameworksJS know actual" data-category="frameworksJS"><h3 class="name">Vue.js</h3></div></a>
-							<a href="http://susy.oddbird.net/"><div class="element-item frameworksCSS actual" data-category="frameworksCSS"><h3 class="name">Susy</h3></div></a>
-							<a href="http://jade-lang.com/"><div class="element-item templateers know actual" data-category="templateers"><h3 class="name">Jade</h3></div></a>
-							<a href="http://websketches.ru/plugins/hoganjs"><div class="element-item templateers" data-category="templateers"><h3 class="name">Hogan</h3></div></a>
-							<a href="https://pure-js.com/"><div class="element-item frameworksCSS actual" data-category="frameworksCSS"><h3 class="name">Pure</h3></div></a>
+							<a href="https://platformalp.ru/"><div class="element-item platform know actual" data-category="platform"><h3 class="name">LP</h3></div></a>
+							<a href="https://alvarotrigo.com/fullPage/ru/"><div class="element-item pluginsJS know" data-category="pluginsJS"><h3 class="name">FullPage.js</h3></div></a>
+							<a href="https://angular.io/"><div class="element-item frameworksJS actual learn" data-category="frameworksJS"><h3 class="name">Angular2+</h3></div></a>
+							<a href="http://lesscss.org/"><div class="element-item preprocessorsCSS actual" data-category="preprocessorsCSS"><h3 class="name">Less</h3></div></a>
+							<a href="https://owlcarousel2.github.io/OwlCarousel2/"><div class="element-item pluginsJS know" data-category="pluginsJS"><h3 class="name">Owl-Carousel.js</h3></div></a>
+							<a href="https://vuejs.org/"><div class="element-item frameworksJS basic actual" data-category="frameworksJS"><h3 class="name">Vue.js</h3></div></a>
+							<a href="http://susy.oddbird.net/"><div class="element-item frameworksCSS" data-category="frameworksCSS"><h3 class="name">Susy</h3></div></a>
+							<a href="https://isotope.metafizzy.co/v2/"><div class="element-item know pluginsJS" data-category="pluginsJS"><h3 class="name">Isotope.js</h3></div></a>
+							<a href="#"><div class="element-item know layout" data-category="layout"><h3 class="name">Adaptive</h3></div></a>
+							<a href="#"><div class="element-item know layout" data-category="layout"><h3 class="name">Cross-browsering</h3></div></a>
+							<a href="https://pure-js.com/"><div class="element-item frameworksCSS" data-category="frameworksCSS"><h3 class="name">Pure</h3></div></a>
 							<a href="https://github.com/janl/mustache.js/"><div class="element-item templateers" data-category="templateers"><h3 class="name">Mustache</h3></div></a>
-							<a href="http://federicoweber.com/notes/walrus_javascript.html"><div class="element-item templateers" data-category="templateers"><h3 class="name">Walrus</h3></div></a>
-							<a href="http://www.dustjs.com/"><div class="element-item templateers actual" data-category="templateers"><h3 class="name">Dust</h3></div></a>
+							<a href="#"><div class="element-item know layout" data-category="layout"><h3 class="name">Responsive</h3></div></a>
 						</div>
 					</div>
 				</div>
