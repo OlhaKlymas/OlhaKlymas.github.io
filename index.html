@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Olha Klymas</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<div class="header-wrap">			
+			<div class="header-description">
+				<h1>Olha Klymas</h1>
+				<p>web developer</p>
+				<div class="header-buttons">
+					<a href="#">About me</a>
+					<a href="#">My portfolio</a>
+				</div>			
+			</div>
+			<div class="header-inset">
+				<img src="img/myphoto.png" alt="Olha Klymas">
+			</div>
+		</div>
+	</header>
+	<nav>
+		<p>Olha Klymas</p>
+		<div class="nav-block">
+			<a href="#">About</a>
+			<a href="#">Skills</a>
+			<a href="#">Portfolio</a>
+			<a href="#">Contact</a>
+		</div>
+	</nav>
+	<article>
+		<section>
+			<div class="about-wrap">
+				<h2>About me</h2>
+				<hr>
+				<div class="about-img">
+				</div>
+				<div class="about-text">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint atque quidem quas fugit quaerat nisi consequatur recusandae suscipit dignissimos dolor illo, cupiditate soluta vel reiciendis cumque reprehenderit, expedita aliquam nostrum?</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint atque quidem quas fugit quaerat nisi consequatur recusandae suscipit dignissimos dolor illo, cupiditate soluta vel reiciendis cumque reprehenderit, expedita aliquam nostrum?</p>
+					<a href="#"><i class="fas fa-download"></i>Download resume</a>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="scills-wrap">
+				<div class="scills-bg"></div>
+				<h2>Me skills</h2>
+				<hr>
+				<div class="skills-grid">
+					<div class="skills-grid-block">
+						<div class="skills-grid-item">
+							<img src="img/html.png" alt="html">
+						</div>
+						<div class="skills-grid-item">
+							<img src="img/js.png" alt="js">
+						</div>
+						<div class="skills-grid-item">
+							<img src="img/css.png" alt="css">
+						</div>
+					</div>
+					<div class="skills-grid-block">
+						<div class="skills-grid-item">
+							<img src="img/github.png" alt="github">
+						</div>
+						<div class="skills-grid-item">
+							<img src="img/wordpress.png" alt="wordpress">
+						</div>
+						<div class="skills-grid-item">
+							<img src="img/sass.png" alt="sass">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="portfolio-wrap">
+				<h2>My portfolio</h2>
+				<hr>
+				<div class="portfolio-grid">
+					<a href="#">
+						<div class="portfolio-grid-item">
+							<img src="" alt="">
+							<p>Lorem</p>
+						</div>
+					</a>				
+				</div>
+				<div class="portfolio-grid">
+					<a href="#">
+						<div class="portfolio-grid-item">
+							<img src="" alt="">
+							<p>Lorem</p>
+						</div>
+					</a>				
+				</div>
+				<div class="portfolio-grid">
+					<a href="#">
+						<div class="portfolio-grid-item">
+							<img src="" alt="">
+							<p>Lorem</p>
+						</div>
+					</a>				
+				</div>
+				<div class="portfolio-grid">
+					<a href="#">
+						<div class="portfolio-grid-item">
+							<img src="" alt="">
+							<p>Lorem</p>
+						</div>
+					</a>				
+				</div>
+				<div class="portfolio-grid">
+					<a href="#">
+						<div class="portfolio-grid-item">
+							<img src="" alt="">
+							<p>Lorem</p>
+						</div>
+					</a>				
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="contact-wrap">
+				<div class="contact-bg"></div>
+				<h2>Contact me</h2>
+				<hr>
+				<div class="contact-block">
+					<div class="tel">
+						<i class="fas fa-phone-square"></i>
+						<p>+38 (073) 417 88 26</p>
+					</div>
+					<div class="social-buttons">
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+					</div>
+					<div class="email">
+						<i class="fas fa-envelope"></i>
+						<p>olhaklymas@gmail.com</p>
+					</div>
+				</div>
+				<form action=""></form>
+			</div>
+		</section>
+	</article>
+	<footer>
+		<p>Have a nice day!</p>
+	</footer>
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(window).scroll(function(){
+			$('.header-inset').css({'top': $(window).scrollTop()/1.2});
+			$('.header-description').css({'top': $(window).scrollTop()/1.5});
+			$('.scills-bg').css({'top': $(window).scrollTop()/3});
+			$('.contact-bg').css({'top': $(window).scrollTop()/3});
+			setTimeout(function() {
+				$('.about-text').css('animation-duration', '0.5s');
+				$('.about-text').css('-webkit-animation-duration', '0.5s');
+				$('.about-text').css('animation-name', 'my-opacity-transform');
+				$('.about-text').css('-webkit-animation-name', 'my-opacity-transform');
+				$('.about-text').css('animation-timing-function', 'ease');
+				$('.about-text').css('-webkit-animation-timing-function', 'ease');
+				$('.about-text').css('visibility', 'visible');
+			}, 1000);
+		}).scroll();
+	</script>
+</body>
+</html>
