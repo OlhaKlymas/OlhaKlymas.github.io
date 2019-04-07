@@ -275,8 +275,12 @@ button {
 }
 /*Изотоп закончился*/
 .element-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  float: right;
   width: 80px;
   height: 80px;
   margin: 5px;
@@ -289,7 +293,6 @@ button {
     opacity: 0.75; }
   .element-item .name {
     position: absolute;
-    top: 35px;
     font-size: 17px;
     line-height: 1;
     color: #000;
