@@ -238,28 +238,41 @@ section {
 	margin-top: -100vh;
 	height: 150vh;
 }
-.skills-grid {
-	margin: 50px 0px;
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-}
-.skills-grid-block {
-	width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-.skills-grid-block:nth-child(1) {
-	padding-bottom: 50px;
-}
-.skills-grid-item {
-	text-align: center;
-}
-.skills-grid-item>img {
-	width: 100px;
-}
+/*Изотоп закончился*/
+.element-item {
+  position: relative;
+  float: right;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.05); }
+  .element-item > * {
+    margin: 0;
+    padding: 0; }
+  .element-item:hover {
+    opacity: 0.75; }
+  .element-item .name {
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    font-size: 11pt;
+    color: #000;
+    font-family: cursive; }
+  .element-item.templateers {
+    background: #0c4de4; }
+  .element-item.taskManagers {
+    background: #ff9eba; }
+  .element-item.bandlers {
+    background: #ccff00; }
+  .element-item.frameworksJS {
+    background: #33ff00; }
+  .element-item.preprocessorsCSS {
+    background: #00ff66; }
+  .element-item.frameworksCSS {
+    background: cyan; }
+/*Изотоп закончился*/
+
 .portfolio-grid-item>p {
 	font-family: 'Kalam', cursive;	
 	text-transform: uppercase;

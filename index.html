@@ -54,29 +54,53 @@
 		<section>
 			<div class="scills-wrap">
 				<div class="scills-bg"></div>
-				<h2>Me skills</h2>
+				<h2>Skills</h2>
 				<hr>
-				<div class="skills-grid">
-					<div class="skills-grid-block">
-						<div class="skills-grid-item">
-							<img src="img/html.png" alt="html">
+				<div class="upperBlock">
+					<div class="warpUpperBlock">
+						<h2>Sort</h2>
+						<div class="button-group" id="filters">
+							<button class="button is-checked" data-filter="*">Все</button>
+							<button class="button" data-filter=".know">Я знаю</button>
+							<button class="button" data-filter=":not(.know)">Предстоит выучить</button>
+							<button class="button" data-filter=".actual">Актуальные</button>
 						</div>
-						<div class="skills-grid-item">
-							<img src="img/js.png" alt="js">
+						<h2>Filter</h2>
+						<div class="button-group" id="sorts">
+							<button class="button is-checked" data-sort-by="original-order" data-filter="*">Первоначальный список</button>
+							<button class="button" data-sort-by="name">Имя</button>
+							<button class="button" data-filter=".templateers">Шаблонизаторы</button>
+							<button class="button" data-filter=".taskManagers">Менеджеры задач</button>
+							<button class="button" data-filter=".bandlers">Бандлеры</button>
+							<button class="button" data-filter=".frameworksJS">Фреймворки JS</button>
+							<button class="button" data-filter=".preprocessorsCSS">Препроцессоры CSS</button>
+							<button class="button" data-filter=".frameworksCSS">Фреймворки CSS</button>
 						</div>
-						<div class="skills-grid-item">
-							<img src="img/css.png" alt="css">
-						</div>
-					</div>
-					<div class="skills-grid-block">
-						<div class="skills-grid-item">
-							<img src="img/github.png" alt="github">
-						</div>
-						<div class="skills-grid-item">
-							<img src="img/wordpress.png" alt="wordpress">
-						</div>
-						<div class="skills-grid-item">
-							<img src="img/sass.png" alt="sass">
+						<div class="grid">
+							<a href="https://gulpjs.com/"><div class="element-item taskManagers actual" data-category="taskManagers"><h3 class="name">Gulp.js</h3></div></a>
+							<a href="https://www.npmjs.com/"><div class="element-item taskManagers know actual" data-category="taskManagers"><h3 class="name">npm</h3></div></a>
+							<a href="https://webpack.js.org/"><div class="element-item bandlers know actual" data-category="bandlers"><h3 class="name">Webpack</h3></div></a>
+							<a href="https://jquery.com/"><div class="element-item frameworksJS know actual" data-category="frameworksJS"><h3 class="name">jQuery</h3></div></a>
+							<a href="https://gruntjs.com/"><div class="element-item taskManagers actual" data-category="taskManagers"><h3 class="name">Grunt</h3></div></a>
+							<a href="https://reactjs.org/"><div class="element-item frameworksJS actual" data-category="frameworksJS"><h3 class="name">React</h3></div></a>
+							<a href="http://browserify.org/"><div class="element-item bandlers actual" data-category="bandlers"><h3 class="name">Browserify</h3></div></a>
+							<a href="https://www.emberjs.com/"><div class="element-item frameworksJS" data-category="frameworksJS"><h3 class="name">Ember.js</h3></div></a>
+							<a href="http://requirejs.org/"><div class="element-item bandlers" data-category="bandlers"><h3 class="name">RequireJS</h3></div></a>
+							<a href="https://sass-scss.ru/"><div class="element-item preprocessorsCSS know actual" data-category="preprocessorsCSS"><h3 class="name">SASS</h3></div></a>
+							<a href="http://stylus-lang.com/"><div class="element-item preprocessorsCSS" data-category="preprocessorsCSS"><h3 class="name">Stylus</h3></div></a>
+							<a href="https://getbootstrap.com/"><div class="element-item frameworksCSS know actual" data-category="frameworksCSS"><h3 class="name">Bootstrap</h3></div></a>
+							<a href="https://www.meteor.com/"><div class="element-item frameworksJS" data-category="frameworksJS"><h3 class="name">Meteor.js</h3></div></a>
+							<a href="https://foundation.zurb.com/"><div class="element-item frameworksCSS" data-category="frameworksCSS"><h3 class="name">Foundation</h3></div></a>
+							<a href="https://angular.io/"><div class="element-item frameworksJS actual" data-category="frameworksJS"><h3 class="name">Angular2</h3></div></a>
+							<a href="http://lesscss.org/"><div class="element-item preprocessorsCSS know" data-category="preprocessorsCSS"><h3 class="name">Less</h3></div></a>
+							<a href="https://vuejs.org/"><div class="element-item frameworksJS know actual" data-category="frameworksJS"><h3 class="name">Vue.js</h3></div></a>
+							<a href="http://susy.oddbird.net/"><div class="element-item frameworksCSS actual" data-category="frameworksCSS"><h3 class="name">Susy</h3></div></a>
+							<a href="http://jade-lang.com/"><div class="element-item templateers know actual" data-category="templateers"><h3 class="name">Jade</h3></div></a>
+							<a href="http://websketches.ru/plugins/hoganjs"><div class="element-item templateers" data-category="templateers"><h3 class="name">Hogan</h3></div></a>
+							<a href="https://pure-js.com/"><div class="element-item frameworksCSS actual" data-category="frameworksCSS"><h3 class="name">Pure</h3></div></a>
+							<a href="https://github.com/janl/mustache.js/"><div class="element-item templateers" data-category="templateers"><h3 class="name">Mustache</h3></div></a>
+							<a href="http://federicoweber.com/notes/walrus_javascript.html"><div class="element-item templateers" data-category="templateers"><h3 class="name">Walrus</h3></div></a>
+							<a href="http://www.dustjs.com/"><div class="element-item templateers actual" data-category="templateers"><h3 class="name">Dust</h3></div></a>
 						</div>
 					</div>
 				</div>
@@ -159,6 +183,8 @@
 		<p>Have a nice day!</p>
 	</footer>
 	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script src="https://unpkg.com/isotope-layout@2/dist/isotope.pkgd.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script type="text/javascript">
 		$(window).scroll(function(){
 			$('.header-inset').css({'top': $(window).scrollTop()/1.2});
@@ -175,6 +201,34 @@
 				$('.about-text').css('visibility', 'visible');
 			}, 1000);
 		}).scroll();
+		// Изотоп
+		let $grid = $('.grid').isotope({
+		  itemSelector: '.element-item',
+		  layoutMode: 'fitRows',
+		  getSortData: {
+		    name: '.name',
+		    category: '[data-category]'
+		  }
+		});
+		$('#filters').on( 'click', 'button', function() {
+		  var filterValue = $(this).attr('data-filter');
+		  $grid.isotope({ filter: filterValue });
+		});
+		$('#sorts').on( 'click', 'button', function() {
+		  var sortByValue = $(this).attr('data-sort-by');
+		  $grid.isotope({ sortBy: sortByValue });
+		});
+		$('#sorts').on( 'click', 'button', function() {
+		  var filterValueS = $(this).attr('data-filter');
+		  $grid.isotope({ filter: filterValueS });
+		});
+		$('.button-group').each(function(i, buttonGroup) {
+		  var $buttonGroup = $(buttonGroup);
+		  $buttonGroup.on('click', 'button', function() {
+		    $buttonGroup.find('.is-checked').removeClass('is-checked');
+		    $(this).addClass('is-checked');
+		  });
+		});
 	</script>
 </body>
 </html>
