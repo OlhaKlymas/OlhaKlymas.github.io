@@ -53,7 +53,6 @@ $(function() {
 	autoplayTimeout:3000,
 	autoplayHoverPause:true,
     smartSpeed: 2000,
-    center:true,
   });
 });
 		// button-top
