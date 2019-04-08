@@ -198,7 +198,7 @@ section {
     border-radius: 50%;
     overflow: hidden;
     text-align: center;
-    background-image: url(img/myphoto.jpg);
+    background-image: url(../img/myphoto.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     margin: 50px 0px
@@ -245,7 +245,7 @@ section {
     z-index: -1;
 }
 .skills-bg {
-    background-image: url(img/back.jpg);
+    background-image: url(../img/back.jpg);
     margin-top: -100vh;
     height: 150vh;
 }
@@ -340,7 +340,7 @@ button {
     color: #fff;
 }
 .contact-bg {
-    background-image: url(img/code.jpg);
+    background-image: url(../img/code.jpg);
     margin-top: -150vh; 
     height: 130vh;
 }
