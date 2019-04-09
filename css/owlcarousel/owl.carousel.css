@@ -43,14 +43,14 @@
     position: relative;
     min-height: 1px;
     float: left;
+    margin-bottom: 40px;
     -webkit-backface-visibility: hidden;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none; }
   .owl-carousel .owl-item img {
     display: block;
     width: 65%;
-    height: 450px;
-    margin-bottom: 40px; }
+    height: 450px; }
   .owl-carousel .owl-nav.disabled,
   .owl-carousel .owl-dots.disabled {
     display: none; }

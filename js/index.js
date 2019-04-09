@@ -1,18 +1,24 @@
-$(window).scroll(function(){
-	$('.header-inset').css({'top': $(window).scrollTop()/1.2});
-	$('.header-description').css({'top': $(window).scrollTop()/1.5});
-	$('.skills-bg').css({'top': $(window).scrollTop()/3});
-	$('.contact-bg').css({'top': $(window).scrollTop()/3});
-	setTimeout(function() {
-		$('.about-text').css('animation-duration', '0.5s');
-		$('.about-text').css('-webkit-animation-duration', '0.5s');
-		$('.about-text').css('animation-name', 'my-opacity-transform');
-		$('.about-text').css('-webkit-animation-name', 'my-opacity-transform');
-		$('.about-text').css('animation-timing-function', 'ease');
-		$('.about-text').css('-webkit-animation-timing-function', 'ease');
-		$('.about-text').css('visibility', 'visible');
-	}, 1000);
-}).scroll();
+if(window.innerWidth>"960") {
+    $(window).scroll(function(){
+    $('.skills-bg').css({'top': $(window).scrollTop()/3});
+    $('.contact-bg').css({'top': $(window).scrollTop()/3});
+  }).scroll();
+}
+    $(window).scroll(function(){
+    $('.header-inset').css({'top': $(window).scrollTop()/1.2});
+    $('.header-description').css({'top': $(window).scrollTop()/1.5});
+  }).scroll();
+    
+  setTimeout(function() {
+    $('.about-text').css('animation-duration', '0.5s');
+    $('.about-text').css('-webkit-animation-duration', '0.5s');
+    $('.about-text').css('animation-name', 'my-opacity-transform');
+    $('.about-text').css('-webkit-animation-name', 'my-opacity-transform');
+    $('.about-text').css('animation-timing-function', 'ease');
+    $('.about-text').css('-webkit-animation-timing-function', 'ease');
+    $('.about-text').css('visibility', 'visible');
+  }, 1000);
+
 		// Изотоп
 let $grid = $('.grid').isotope({
   itemSelector: '.element-item',

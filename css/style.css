@@ -179,6 +179,9 @@ nav>p{
     color: #f0e0f7;
     outline: none;
 }
+.nav-min {
+    display: none;
+}
 article {
     position: relative;
     z-index: 1;
@@ -264,7 +267,7 @@ section {
 .skills-bg {
     background-image: url(../img/back.jpg);
     margin-top: -100vh;
-    height: 150vh;
+    height: 100vw;
 }
 .skills-block{
     width: 70%;
@@ -337,15 +340,50 @@ button {
 /*Изотоп закончился*/
 
 .portfolio-wrap {
-    background-color: #fff;
+    background-color: #f0e0f7;
 }
 .portfolio-wrap .item {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: #fff;
+    border: 1px solid #391c69;
+}
+.portfolio-wrap .item .item-img {
+    width: 70%;
+    height: 30vw;
+}
+.arkodan, .denelectric, .rts, .agency, .teploradiator, .grid-project {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.portfolio-wrap .item .arkodan {
+    background-image: url(../img/arkodan.jpg);
+}
+.portfolio-wrap .item .denelectric {
+    background-image: url(../img/denelectric.jpg);
+}
+.portfolio-wrap .item .rts {
+    background-image: url(../img/rts.jpg);
+}
+.portfolio-wrap .item .agency {
+    background-image: url(../img/agency.jpg);
+}
+.portfolio-wrap .item .teploradiator {
+    background-image: url(../img/agency.jpg);
+}
+.portfolio-wrap .item .teploradiator {
+    background-image: url(../img/teploradiator.jpg);
+}
+.portfolio-wrap .item .grid-project {
+    background-image: url(../img/grid.jpg);
 }
 .portfolio-wrap .item .description {
+    width: 30%;
     margin: auto;
+    text-align: center;
 }
 .portfolio-wrap .item .description>span {
     font-family: 'Kalam', cursive;  
@@ -369,7 +407,7 @@ button {
     height: 130vh;
 }
 .contact-block {
-    height: 100%;
+    height: 65%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;

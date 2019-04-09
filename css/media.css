@@ -1,0 +1,78 @@
+@import "style.css";
+@media only screen and (max-height: 620px) {
+	.contact-bg {
+		margin-top: -220vh;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.header-buttons {
+		width: 50%;
+	}	
+}
+
+@media only screen and (max-width: 960px) {
+	.skills-bg, .contact-bg {
+		height: 100%;
+	}
+	.skills-bg {
+		margin-top: -50px;
+	}
+	.contact-bg {
+		margin-top: -30px;
+	}
+}
+@media only screen and (max-width: 900px) {
+	h1 {
+		font-size: 45px;
+	}
+	.header-buttons {
+		width: 60%;
+	}
+	.nav-block {
+		display: none;
+	}
+	.nav-min {
+		display: block;
+	}
+}
+@media only screen and (max-width: 820px) {
+	h1 {
+		font-size: 40px;
+	}
+	.portfolio-wrap .item .description>span {
+		font-size: 25px;
+	}
+}
+@media only screen and (max-width: 780px) {
+	h1 {
+		padding: 10px 50px;
+	}
+}
+@media only screen and (max-width: 670px) {
+	.header-buttons {
+		width: 70%;
+	}
+	.portfolio-wrap .item {
+		flex-direction: column;
+	}
+	.portfolio-wrap .item .item-img {
+		width: 100%;
+		height: 55vw;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	.header-buttons {
+		width: 60%;
+	}
+	.header-inset {
+		display: none;
+	}
+	.header-description {
+		width: 100%;
+	}
+	.about-text>a {
+		padding: 15px 10px;
+	}
+}
