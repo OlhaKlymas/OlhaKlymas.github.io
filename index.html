@@ -23,8 +23,35 @@
 	<nav class="nav-min">
 		<p class="nav-name">Olha Klymas</p>
 		<div id="nav-block">
-			<i class="fas fa-bars"></i>
+			<a href="javascript:PopUpShow()" data-effect="mfp-move-from-top">
+				<i class="fas fa-bars" id="menu"></i>
+			</a>
 		</div>
+		<div class="b-popup" id="popup1">
+	        <div class="b-popup-content">
+	          <div class="popup-content-close">
+	            <a href="javascript:PopUpHide()">
+	              <span class="close"></span>
+	            </a>
+	          </div>
+	          <div class="popup-content-list">
+	            <ul>
+	              <li>
+					<a href="#about" onclick="PopUpHide()">About</a>
+				  </li>
+	              <li>
+					<a href="#skills" onclick="PopUpHide()">Skills</a>
+				  </li>
+	              <li>
+					<a href="#portfolio" onclick="PopUpHide()">Portfolio</a>
+				  </li>
+	              <li>
+					<a href="#contact" onclick="PopUpHide()">Contact</a>
+				  </li>
+	            </ul>
+	          </div>          
+	        </div>
+     	</div>
 	</nav>
 	<header>
 		<div class="header-wrap">			

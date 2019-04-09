@@ -29,6 +29,9 @@
 	.header-buttons {
 		width: 60%;
 	}
+	.portfolio-wrap .item .description>span {
+		font-size: 30px;
+	}
 }
 @media only screen and (max-width: 820px) {
 	h1 {
@@ -99,4 +102,65 @@
 	.nav-name {
 		visibility: hidden;
 	}
+	.b-popup {
+	  width: 100vw;
+	  min-height: 100%;
+	  background-color: rgba(0, 0, 0, 0.94);
+	  overflow: hidden;
+	  position: fixed;
+	  top: 0px;
+	  left: 0px;
+	  z-index: 999; 
+	  visibility: hidden;
+	  transition: visibility 0.5s;}
+
+.b-popup .b-popup-content {
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  padding: 10px; }
+  .b-popup .b-popup-content .popup-content-close {
+    position: absolute;
+    right: 20px;
+    top: 0px; }
+    .close {
+    	right: 45px;
+    	top: 7px;
+    }
+    .close {
+      position: absolute;
+      width: 20px;
+      height: 20px; }
+      .close:hover:before, .close:hover:after {
+        background-color: #7249b7; }
+      .close:before, .close:after {
+        position: absolute;
+        left: 10px;
+        content: " ";
+        height: 27px;
+        width: 4px;
+        background-color: #fff; }
+       .close:before{
+        transform: rotate(45deg);
+       }
+        .close:after{
+        transform: rotate(-45deg);
+       }
+  .b-popup .b-popup-content .popup-content-list {
+    margin-top: 70px; }
+    .b-popup .b-popup-content .popup-content-list ul {
+      margin: 0px;
+      padding: 0px; }
+      .b-popup .b-popup-content .popup-content-list ul li {
+        list-style-type: none;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 15px; 
+    	font-family: sans-serif;}
+        .b-popup .b-popup-content .popup-content-list ul li a {
+          color: #fff;
+          font-size: 20px; 
+          font-weight: 600;}
+        .b-popup .b-popup-content .popup-content-list ul li:hover a {
+          color: #7249b7; }
 }

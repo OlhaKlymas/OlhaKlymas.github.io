@@ -26,7 +26,7 @@ h1 {
 /* ***BUTTON TOP *** */
 .button-top {
   position: absolute;
-  z-index: 999;
+  z-index: 990;
   width: 400px;
   margin: 0 auto; }
 
@@ -350,11 +350,10 @@ button {
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #fff;
-    border: 1px solid #391c69;
 }
 .portfolio-wrap .item .item-img {
     width: 70%;
-    height: 30vw;
+    height: 32.5vw;
 }
 .arkodan, .denelectric, .rts, .agency, .teploradiator, .grid-project {
     background-repeat: no-repeat;
@@ -437,7 +436,7 @@ button {
 }
 footer {
     position: relative;
-    z-index: 990;
+    z-index: 989;
     background-color: #221b23;
     font-family: 'Kalam', cursive;  
     color: #fff;
