@@ -29,12 +29,6 @@
 	.header-buttons {
 		width: 60%;
 	}
-	.nav-block {
-		display: none;
-	}
-	.nav-min {
-		display: block;
-	}
 }
 @media only screen and (max-width: 820px) {
 	h1 {
@@ -55,14 +49,23 @@
 		width: 100%;
 		height: 55vw;
 	}
+	.nav-block {
+		margin-right: 0px;
+	}
+	.nav-block>a {
+		padding: 10px 20px;
+	}
 }
 @media only screen and (max-width: 670px) {
 	.header-buttons {
 		width: 70%;
 	}
+	.nav-block>a {
+		padding: 10px 10px;
+	}
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 590px) {
 	.header-buttons {
 		width: 60%;
 	}
@@ -74,5 +77,26 @@
 	}
 	.about-text>a {
 		padding: 15px 10px;
+	}
+	.nav-desk {
+		display: none;
+	}
+	.nav-min {
+		display: flex;
+	}
+	#nav-block {
+    	width: 100%;
+		text-align: right;
+	}
+	#nav-block .fas {
+		color: #391c69;
+	}
+	nav {
+		position: fixed;
+		background-color: transparent;
+		transition: background-color 0.5s;
+	}
+	.nav-name {
+		visibility: hidden;
 	}
 }
