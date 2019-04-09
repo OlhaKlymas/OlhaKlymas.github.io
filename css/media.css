@@ -48,17 +48,17 @@
 	h1 {
 		padding: 10px 50px;
 	}
-}
-@media only screen and (max-width: 670px) {
-	.header-buttons {
-		width: 70%;
-	}
 	.portfolio-wrap .item {
 		flex-direction: column;
 	}
 	.portfolio-wrap .item .item-img {
 		width: 100%;
 		height: 55vw;
+	}
+}
+@media only screen and (max-width: 670px) {
+	.header-buttons {
+		width: 70%;
 	}
 }
 
