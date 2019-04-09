@@ -6,7 +6,10 @@ if(window.innerWidth>"960") {
     $('.header-description').css({'top': $(window).scrollTop()/1.5});
   }).scroll();
 }
-    
+
+if(window.innerWidth>"590") {
+	$("#download").html('<i class="fas fa-download"></i>CV');
+}
   setTimeout(function() {
     $('.about-text').css('animation-duration', '0.5s');
     $('.about-text').css('-webkit-animation-duration', '0.5s');
@@ -118,8 +121,4 @@ function PopUpShow(){
 function PopUpHide(){
 	$("#popup1").hide(500);
 	$(".b-popup").css('visibility', 'hidden');
-}
-
-if(window.innerWidth>"590") {
-	$("#download").html('<i class="fas fa-download"></i>CV');
 }

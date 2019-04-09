@@ -78,6 +78,9 @@
 	.header-description {
 		width: 100%;
 	}
+	.about-text {
+		width: 80%;
+	}
 	.about-text>a {
 		padding: 15px 10px;
 	}
@@ -165,4 +168,17 @@
 	          font-weight: 600;}
 	        .b-popup .b-popup-content .popup-content-list ul li:hover a {
 	          color: #7249b7; }
+	.contact-block {
+		width: 80%;
 	}
+	}
+
+@media only screen and (max-width: 360px) {
+	h1 {
+		padding: 10px 20px;
+		font-size: 35px;
+	}
+	.header-buttons {
+    	width: 70%;
+	}
+}
