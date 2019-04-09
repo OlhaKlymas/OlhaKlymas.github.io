@@ -150,8 +150,6 @@
 	        .close:after{
 	        transform: rotate(-45deg);
 	       }
-	  .b-popup .b-popup-content .popup-content-list {
-	    margin-top: 70px; }
 	    .b-popup .b-popup-content .popup-content-list ul {
 	      margin: 0px;
 	      padding: 0px; }
