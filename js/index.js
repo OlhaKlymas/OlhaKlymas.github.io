@@ -119,3 +119,7 @@ function PopUpHide(){
 	$("#popup1").hide(500);
 	$(".b-popup").css('visibility', 'hidden');
 }
+
+if(window.innerWidth>"590") {
+	$("#download").html('<i class="fas fa-download"></i>CV');
+}
