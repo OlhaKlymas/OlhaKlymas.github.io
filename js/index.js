@@ -2,12 +2,10 @@ if(window.innerWidth>"960") {
     $(window).scroll(function(){
     $('.skills-bg').css({'top': $(window).scrollTop()/3});
     $('.contact-bg').css({'top': $(window).scrollTop()/3});
-  }).scroll();
-}
-    $(window).scroll(function(){
     $('.header-inset').css({'top': $(window).scrollTop()/1.2});
     $('.header-description').css({'top': $(window).scrollTop()/1.5});
   }).scroll();
+}
     
   setTimeout(function() {
     $('.about-text').css('animation-duration', '0.5s');
