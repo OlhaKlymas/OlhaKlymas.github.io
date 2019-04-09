@@ -61,6 +61,7 @@ header {
 .header-inset {
     height: 100%;
     width: 45%;
+    transition: top 0.5s;
 }
 .header-inset img {
     height: 95vh;
