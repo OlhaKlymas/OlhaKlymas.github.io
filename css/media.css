@@ -190,3 +190,26 @@
     	width: 70%;
 	}
 }
+
+@media print {
+	.nav-desk {
+		position: absolute;
+		justify-content: center;
+	}
+	header, .button-top, .nav-block, .about-wrap>h2, .about-wrap>hr, .about-wrap>.about-img, #download, #skills, #portfolio, .social-buttons, .contact-bg {
+		display: none;
+	}
+	.about-text {
+		margin-bottom: 0px;
+		margin-top: 100px;
+	}
+	.about-wrap, .contact-wrap {
+		padding: 0px;
+	}
+	.contact-wrap, .contact-block {
+		height: 10%;
+	}
+	footer, .nav-desk>p, .contact-wrap>h2, .tel>.fas, .tel>p, .email>.fas, .email>p{
+		color: #000;
+	}
+}
