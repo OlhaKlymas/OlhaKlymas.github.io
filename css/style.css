@@ -349,11 +349,11 @@ button {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #fff;
 }
 .portfolio-wrap .item .item-img {
-    width: 70%;
-    height: 32.5vw;
+    width: 55%;
+    height: 26vw;
+    margin: auto;
 }
 .arkodan, .denelectric, .rts, .agency, .teploradiator, .grid-project {
     background-repeat: no-repeat;
@@ -381,7 +381,7 @@ button {
     background-image: url(../img/grid.jpg);
 }
 .portfolio-wrap .item .description {
-    width: 30%;
+    width: 45%;
     margin: auto;
     text-align: center;
 }
@@ -392,6 +392,10 @@ button {
 }
 .portfolio-wrap .item .description>p {
     color: #221b23;
+    text-align: justify;
+    width: 80%;
+    padding-bottom: 10px;
+    margin: auto;
 }
 .contact-wrap {
     background-color: rgba(34,27,35, 0.8);

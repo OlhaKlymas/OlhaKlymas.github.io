@@ -7,7 +7,7 @@ if(window.innerWidth>"960") {
   }).scroll();
 }
 
-if(window.innerWidth>"590") {
+if(window.innerWidth<"590") {
 	$("#download").html('<i class="fas fa-download"></i>CV');
 }
   setTimeout(function() {
