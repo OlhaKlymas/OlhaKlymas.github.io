@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Olha Klymas</h1>
-  <div display="inline-block">
+  <div style="display:inline-block">
     <img src="https://github.com/OlhaKlymas/OlhaKlymas.github.io/blob/master/favicon/favicon-32x32.png"
             alt="web-developer" />
     <h2>web-developer</h2>
