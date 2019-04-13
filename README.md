@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Olha Klymas</h1>
-  <img src="https://github.com/OlhaKlymas/OlhaKlymas.github.io/blob/master/favicon/favicon-32x32.png"
+  <img src="https://github.com/OlhaKlymas/OlhaKlymas.github.io/blob/master/favicon/android-chrome-192x192.png"
             alt="web-developer" / float="right">
   <h2>web-developer</h2>
 </div>
