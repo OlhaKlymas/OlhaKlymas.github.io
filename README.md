@@ -2,7 +2,7 @@
   <img src="https://github.com/OlhaKlymas/OlhaKlymas.github.io/blob/master/favicon/android-chrome-192x192.png"
             alt="web-developer" / >
   <h1>Olha Klymas</h1>
-  <h2>web-developer</h2>
+  <i>web-developer</i>
 </div>
 
 ### 📜 Описание  
