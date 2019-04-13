@@ -8,9 +8,10 @@ if(window.innerWidth>"960") {
 }
 
 if(window.innerWidth<"590") {
-	$("#download").html('<i class="fas fa-download"></i>CV');
+    $("#download").html('<i class="fas fa-download"></i>CV');
 }
-  setTimeout(function() {
+
+setTimeout(function() {
     $('.about-text').css('animation-duration', '0.5s');
     $('.about-text').css('-webkit-animation-duration', '0.5s');
     $('.about-text').css('animation-name', 'my-opacity-transform');
@@ -20,7 +21,7 @@ if(window.innerWidth<"590") {
     $('.about-text').css('visibility', 'visible');
   }, 1000);
 
-		// Изотоп
+// Изотоп
 let $grid = $('.grid').isotope({
   itemSelector: '.element-item',
   layoutMode: 'fitRows',
@@ -48,7 +49,8 @@ $('.button-group').each(function(i, buttonGroup) {
     $(this).addClass('is-checked');
   });
 });
-		// Owl Carousel
+
+// Owl Carousel
 $(function() {
   var owl = $(".owl-carousel");
   owl.owlCarousel({
@@ -62,7 +64,8 @@ $(function() {
     smartSpeed: 2000,
   });
 });
-		// button-top
+
+// button-top
 $(document).ready(function () {
 
     $("#back-top").hide();
