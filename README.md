@@ -1,20 +1,23 @@
 <div align="center">
   <h1>Olha Klymas</h1>
-  <img src="https://github.com/OlhaKlymas/OlhaKlymas.github.io/blob/master/favicon/favicon-32x32.png"
-      alt="web-developer" /><h2>web-developer</h2>
+  <div>
+    <img src="https://github.com/OlhaKlymas/OlhaKlymas.github.io/blob/master/favicon/favicon-32x32.png"
+            alt="web-developer" />
+    <h2>web-developer</h2>
+  </div>
 </div>
 
 <br> 
 
 ### 📜 Описание  
-Этот проект - мое портфолио, в котором я описала технологии, с которыми я знакома и умею работать. 
-Также, в проекте есть информация обо мне, контакты и мое резюме.
-При создании были изпользованы <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JS</strong> и <strong>jQuery</strong>, а также <strong>Parallax.js</strong>, <strong>Isotope.js</strong> и <strong>Owlcarousel.js</strong>.
+Этот проект - мое портфолио, в котором я описала технологии, с которыми я знакома и умею работать. <br>
+Также, в проекте есть информация обо мне, контакты и мое резюме.<br>
+При создании были изпользованы <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JS</strong> и <strong>jQuery</strong>, а также <strong>Parallax.js</strong>, <strong>Isotope.js</strong> и <strong>Owlcarousel.js</strong>.<br>
 Проект кроссбраузерный и адаптивный под все устройства.
 
 ### 📸 Просмотр 
 Проект Вы можете посмотреть на GitHub Page:<br> 
-https://olhaklymas.github.io/teploradiator.com.ua/
+https://olhaklymas.github.io/
 
 <br> 
 <div align="center">
