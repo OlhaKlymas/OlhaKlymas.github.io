@@ -1,11 +1,9 @@
 <div align="center">
-  <img src="https://github.com/OlhaKlymas/OlhaKlymas.github.io/blob/master/favicon/favicon-32x32.png"
-      alt="web-developer" />
   <h1>Olha Klymas</h1>
-  <h2>web-developer</h2>
+  <img src="https://github.com/OlhaKlymas/OlhaKlymas.github.io/blob/master/favicon/favicon-32x32.png"
+      alt="web-developer" /><h2>web-developer</h2>
 </div>
 
-<h3 align="center">👋🏼 Приветсвую!</h3>
 <br> 
 
 ### 📜 Описание  
