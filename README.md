@@ -1,8 +1,10 @@
 <div align="center">
   <h1>Olha Klymas</h1>
+  <img src="https://github.com/OlhaKlymas/OlhaKlymas.github.io/blob/master/favicon/favicon-32x32.png"
+            alt="web-developer" / float="right">
+  <h2>web-developer</h2>
 </div>
-<img src="https://github.com/OlhaKlymas/OlhaKlymas.github.io/blob/master/favicon/favicon-32x32.png"
-            alt="web-developer" /><p>web-developer</p>
+
 ### 📜 Описание  
 Этот проект - мое портфолио, в котором я описала технологии, с которыми я знакома и умею работать. <br>
 Также, в проекте есть информация обо мне, контакты и мое резюме.<br>
