@@ -385,10 +385,11 @@ button {
     margin: auto;
     text-align: center;
 }
-.portfolio-wrap .item .description>span {
+.portfolio-wrap .item .description>h4 {
     font-family: 'Kalam', cursive;  
     color: #391c69;
     font-size: 34px;
+    margin: 0px;
 }
 .portfolio-wrap .item .description>p {
     color: #221b23;

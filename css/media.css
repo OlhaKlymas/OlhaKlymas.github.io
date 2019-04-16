@@ -34,7 +34,7 @@
 		margin: auto;
 		padding: 20px 0px;
 	}
-	.portfolio-wrap .item .description>span {
+	.portfolio-wrap .item .description>h4 {
 		font-size: 30px;
 	}
 	.portfolio-wrap .item .description>p {
@@ -52,7 +52,7 @@
 	h1 {
 		font-size: 40px;
 	}
-	.portfolio-wrap .item .description>span {
+	.portfolio-wrap .item .description>h4 {
 		font-size: 25px;
 	}
 }
