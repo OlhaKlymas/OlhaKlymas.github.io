@@ -28,7 +28,8 @@ h1 {
   position: absolute;
   z-index: 990;
   width: 400px;
-  margin: 0 auto; }
+  margin: 0 auto; 
+}
 
 #back-top {
   position: fixed;
@@ -60,10 +61,11 @@ header {
 } 
 .header-inset {
     height: 100%;
-    width: 45%;
+    width: 35%;
 }
 .header-inset img {
-    height: 95vh;
+    top: 5vh;
+    height: 90vh;
 }
 .header-description {
     display: flex;
