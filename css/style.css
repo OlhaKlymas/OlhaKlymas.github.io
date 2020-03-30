@@ -360,7 +360,7 @@ button {
     height: 26vw;
     margin: auto;
 }
-.arkodan, .denelectric, .rts, .agency, .teploradiator, .grid-project {
+.arkodan, .consultmarketing, .barbershop, .cable-shop, .agency, .teploradiator, .grid-project {
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -371,7 +371,7 @@ button {
     background-image: url(../img/consultmarketing.jpg);
 }
 .portfolio-wrap .item .barbershop {
-    background-image: url(../img/barbershop.jpg);
+    background-image: url(../img/barber.jpg);
 }
 .portfolio-wrap .item .cable-shop {
     background-image: url(../img/cable-shop.jpg);
