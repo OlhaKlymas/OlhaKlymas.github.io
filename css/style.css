@@ -367,20 +367,20 @@ button {
 .portfolio-wrap .item .arkodan {
     background-image: url(../img/arkodan.jpg);
 }
-.portfolio-wrap .item .denelectric {
-    background-image: url(../img/denelectric.jpg);
+.portfolio-wrap .item .consultmarketing {
+    background-image: url(../img/consultmarketing.jpg);
 }
-.portfolio-wrap .item .rts {
-    background-image: url(../img/rts.jpg);
+.portfolio-wrap .item .barbershop {
+    background-image: url(../img/barbershop.jpg);
 }
-.portfolio-wrap .item .agency {
-    background-image: url(../img/agency.jpg);
-}
-.portfolio-wrap .item .teploradiator {
-    background-image: url(../img/agency.jpg);
+.portfolio-wrap .item .cable-shop {
+    background-image: url(../img/cable-shop.jpg);
 }
 .portfolio-wrap .item .teploradiator {
     background-image: url(../img/teploradiator.jpg);
+}
+.portfolio-wrap .item .agency {
+    background-image: url(../img/agency.jpg);
 }
 .portfolio-wrap .item .grid-project {
     background-image: url(../img/grid.jpg);
