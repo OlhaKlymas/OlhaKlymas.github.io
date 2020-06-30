@@ -11,7 +11,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Alegreya Sans SC', sans-serif; 
+    font-family: 'Signika', sans-serif; 
 }
 
 a {
@@ -392,7 +392,7 @@ button {
     text-align: center;
 }
 .portfolio-wrap .item .description>h4 {
-    font-family: 'Kalam', cursive;  
+    font-family: 'Alegreya Sans SC', sans-serif;  
     color: #391c69;
     font-size: 34px;
     margin: 0px;
