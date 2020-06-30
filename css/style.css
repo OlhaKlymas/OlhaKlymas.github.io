@@ -360,9 +360,12 @@ button {
     height: 26vw;
     margin: auto;
 }
-.arkodan, .consultmarketing, .barbershop, .cable-shop, .agency, .teploradiator, .grid-project {
+.vagovi, .arkodan, .consultmarketing, .barbershop, .cable-shop, .dialog, .agency, .teploradiator, .grid-project {
     background-repeat: no-repeat;
     background-size: contain;
+}
+.portfolio-wrap .item .vagovi {
+    background-image: url(../img/vagovi.jpg);
 }
 .portfolio-wrap .item .arkodan {
     background-image: url(../img/arkodan.jpg);
@@ -375,6 +378,9 @@ button {
 }
 .portfolio-wrap .item .cable-shop {
     background-image: url(../img/cable-shop.jpg);
+}
+.portfolio-wrap .item .dialog {
+    background-image: url(../img/dialog.jpg);
 }
 .portfolio-wrap .item .teploradiator {
     background-image: url(../img/teploradiator.jpg);
