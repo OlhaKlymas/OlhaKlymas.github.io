@@ -241,9 +241,6 @@ section {
     padding-top: 15px;
     font-size: 18px;
 }
-.about-text>p:nth-child(3) {
-    padding-bottom: 60px;
-}
 .about-text>a {
     position: relative;
     text-transform: uppercase;
@@ -255,6 +252,9 @@ section {
     transition: color 0.5s, background-color 0.5s;
     color: #f0e0f7;
     background-color: #391c69;
+}
+.hi{
+    text-align: center;
 }
 .fas {
     padding-right: 15px;
