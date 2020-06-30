@@ -254,7 +254,7 @@ section {
     color: #f0e0f7;
     background-color: #391c69;
 }
-.about-text>.hi{
+.about-text>p.hi{
     text-align: center;
 }
 .fas {
