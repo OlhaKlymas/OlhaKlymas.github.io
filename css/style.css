@@ -238,7 +238,6 @@ section {
     visibility: hidden;
 }
 .about-text>p {
-    font-family: 'Kalam', cursive;
     text-align: justify;
     padding-top: 15px;
     font-size: 18px;
