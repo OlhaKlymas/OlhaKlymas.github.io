@@ -179,6 +179,7 @@ nav>p{
     border: 1px solid #391c69;
     color: #391c69;
     transition: background-color 0.5s, border 0.5s;
+    cursor: pointer;
 }
 .nav-block>a:active, .nav-block>a:focus, button:active, button:focus {
     background-color: #391c69;
